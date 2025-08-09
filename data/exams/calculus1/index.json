@@ -1,0 +1,24 @@
+{
+  "id": "calculus1",
+  "name": "חדו\"א 1",
+  "years": [
+    { "year": 2025, "exams": [] },
+    
+    { "year": 2024, "exams": [] },
+    {
+      "year": 2023,
+      "exams": [
+        { "name": "מועד א", "pdf": "exams/calculus1/2023/moed-a.pdf" },
+        { "name": "מועד ב", "pdf": "exams/calculus1/2023/moed-b.pdf" }
+      ]
+    },
+    {
+      "year": 2022,
+      "exams": [
+        { "name": "מועד א", "pdf": "exams/calculus1/2022/moed-a.pdf" }
+      ]
+    }
+  ]
+}
+
+

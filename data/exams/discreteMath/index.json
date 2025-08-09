@@ -1,0 +1,18 @@
+{
+  "id": "discreteMath",
+  "name": "בדידה",
+  "years": [
+    { "year": 2025, "exams": [] },
+    { "year": 2024, "exams": [] },
+    {
+      "year": 2023,
+      "exams": [
+        { "name": "מועד א", "pdf": "exams/discreteMath/2023/moed-a.pdf" },
+        { "name": "מועד ב", "pdf": "exams/discreteMath/2023/moed-b.pdf" }
+      ]
+    },
+    { "year": 2022, "exams": [] }
+  ]
+}
+
+

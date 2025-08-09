@@ -1,0 +1,17 @@
+{
+  "id": "advancedC",
+  "name": "תכנות מתקדם בסי",
+  "years": [
+    { "year": 2025, "exams": [] },
+    { "year": 2024, "exams": [] },
+    {
+      "year": 2023,
+      "exams": [
+        { "name": "מועד א", "pdf": "exams/advancedC/2023/moed-a.pdf" }
+      ]
+    },
+    { "year": 2022, "exams": [] }
+  ]
+}
+
+
