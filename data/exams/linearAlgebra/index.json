@@ -1,0 +1,18 @@
+{
+  "id": "linearAlgebra",
+  "name": "אלגברה לינארית",
+  "years": [
+    { "year": 2025, "exams": [] },
+    { "year": 2024, "exams": [] },
+    {
+      "year": 2023,
+      "exams": [
+        { "name": "מועד א", "pdf": "exams/linearAlgebra/2023/moed-a.pdf" },
+        { "name": "מועד ב", "pdf": "exams/linearAlgebra/2023/moed-b.pdf" }
+      ]
+    },
+    { "year": 2022, "exams": [] }
+  ]
+}
+
+

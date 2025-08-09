@@ -1,0 +1,17 @@
+{
+  "semesterA": [
+    { "id": "calculus1", "name": "חדו\"א1", "path": "/data/exams/calculus1/index.json" },
+    { "id": "csIntro", "name": "מבוא למדמ\"ח", "path": "/data/exams/csIntro/index.json" },
+    { "id": "logica", "name": "לוגיקה", "path": "/data/exams/logica/index.json" },
+    { "id": "reasoning", "name": "הנמקה", "path": "/data/exams/reasoning/index.json" }
+  ],
+  "semesterB": [
+    { "id": "linearAlgebra", "name": "אלגברה לינארית", "path": "/data/exams/linearAlgebra/index.json" },
+    { "id": "calculus2", "name": "חדו\"א 2", "path": "/data/exams/calculus2/index.json" },
+    { "id": "probability", "name": "מבוא להסתברות", "path": "/data/exams/probability/index.json" },
+    { "id": "advancedC", "name": "תכנות מתקדם בסי", "path": "/data/exams/advancedC/index.json" },
+    { "id": "discreteMath", "name": "בדידה", "path": "/data/exams/discreteMath/index.json" }
+  ]
+}
+
+
