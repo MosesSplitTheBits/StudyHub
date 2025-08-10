@@ -1,0 +1,14 @@
+{
+  "courses": [
+    { "id": "logica", "name": "לוגיקה 💡", "semesterId": "2025-a" },
+    { "id": "reasoning", "name": "הנמקה 📝", "semesterId": "2025-a" },
+    { "id": "calculus1", "name": "חדו\"א 1 📈", "semesterId": "2025-a" },
+    { "id": "csintro", "name": "מבוא למדמ\"ח 💻", "semesterId": "2025-a" },
+
+    { "id": "linearAlgebra", "name": "אלגברה לינארית 🔠", "semesterId": "2025-b" },
+    { "id": "calculus2", "name": "חדו\"א 2 📈", "semesterId": "2025-b" },
+    { "id": "discreteMath", "name": "בדידה 🧮", "semesterId": "2025-b" },
+    { "id": "advancedC", "name": "תכנות מתקדם בסי 💻", "semesterId": "2025-b" },
+    { "id": "probability", "name": "מבוא להסתברות 🎲", "semesterId": "2025-b" }
+  ]
+}

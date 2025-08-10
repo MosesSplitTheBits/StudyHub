@@ -3,23 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>StudyHub</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+  <title>StudyHub - פלטפורמת לימוד</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Tailwind config for RTL and dark mode -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'hebrew': ['system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Custom styles for RTL and Hebrew -->
+  <style>
+    body {
+      font-family: 'hebrew', system-ui, sans-serif;
+    }
+    
+    /* Ensure RTL works properly with Tailwind */
+    [dir="rtl"] .text-right {
+      text-align: right;
+    }
+    
+    [dir="rtl"] .text-left {
+      text-align: left;
+    }
+  </style>
+  
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
   <meta http-equiv="Pragma" content="no-cache"/>
   <meta http-equiv="Expires" content="0"/>
-  
 </head>
-<body>
-  <header class="site-header">
-    <h1>StudyHub</h1>
+<body class="bg-gray-900 text-white min-h-screen">
+  <header class="bg-gray-800 border-b border-gray-700 py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl font-bold text-center text-white">StudyHub 🎓</h1>
+    </div>
   </header>
 
-  <main id="app" class="app-container" aria-live="polite"></main>
+  <main id="app" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" aria-live="polite"></main>
 
-  <noscript>
+  <noscript class="block bg-red-900 text-red-100 p-4 text-center">
     יש להפעיל JavaScript כדי לצפות בתוכן.
   </noscript>
+
+  <!-- Main application script -->
+  <script type="module" src="src/main.js"></script>
 </body>
 </html>
