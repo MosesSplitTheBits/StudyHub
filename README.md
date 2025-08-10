@@ -51,20 +51,6 @@ StudyHub/
 - **Data**: JSON files with Hebrew course names and emojis
 - **Navigation**: Single Page Application with history stack
 
-## 📱 Course Structure
-
-### First Semester (סמסטר א)
-- לוגיקה 💡
-- הנמקה 📝  
-- חדו"א 1 📈
-- מבוא למדמ"ח 💻
-
-### Second Semester (סמסטר ב)
-- אלגברה לינארית 🔠
-- חדו"א 2 📈
-- בדידה 🧮
-- תכנות מתקדם בסי 💻
-- מבוא להסתברות 🎲
 
 ## 🚧 Future Features
 
