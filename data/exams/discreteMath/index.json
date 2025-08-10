@@ -7,8 +7,7 @@
     {
       "year": 2023,
       "exams": [
-        { "name": "מועד א", "pdf": "exams/discreteMath/2023/moed-a.pdf" },
-        { "name": "מועד ב", "pdf": "exams/discreteMath/2023/moed-b.pdf" }
+        { "name": "סמסטר ב מועד ב", "file": "2023-B-B.pdf" }
       ]
     },
     { "year": 2022, "exams": [] }

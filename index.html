@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>StudyHub - פלטפורמת לימוד</title>
   
+  <!-- Marmelad Font Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+  
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   
@@ -14,7 +19,8 @@
       theme: {
         extend: {
           fontFamily: {
-            'hebrew': ['system-ui', 'sans-serif']
+            'hebrew': ['system-ui', 'sans-serif'],
+            'marmelad': ['Marmelad', 'system-ui', 'sans-serif']
           }
         }
       }
@@ -24,16 +30,20 @@
   <!-- Custom styles for RTL and Hebrew -->
   <style>
     body {
-      font-family: 'hebrew', system-ui, sans-serif;
+      font-family: 'Marmelad', 'hebrew', system-ui, sans-serif;
     }
     
     /* Ensure RTL works properly with Tailwind */
     [dir="rtl"] .text-right {
       text-align: right;
     }
-    
     [dir="rtl"] .text-left {
       text-align: left;
+    }
+    
+    /* Force Marmelad font on all elements */
+    * {
+      font-family: 'Marmelad', 'hebrew', system-ui, sans-serif !important;
     }
   </style>
   

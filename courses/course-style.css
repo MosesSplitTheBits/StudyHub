@@ -1,3 +1,96 @@
+/* Basic page layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e3a8a;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Header styling */
+header {
+  background-color: #1e40af;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: white;
+}
+
+/* Navigation styling */
+.courses-nav {
+  margin-top: 20px;
+}
+
+.courses-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.courses-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s ease;
+}
+
+.courses-nav a:hover {
+  background-color: rgba(255,255,255,0.2);
+  transform: translateY(-2px);
+}
+
+/* Main content area */
+main {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Course sections */
+.course-section {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.course-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.course-section p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Back to top link */
+.course-section a[href="#top"] {
+  color: #93c5fd;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.2s ease;
+}
+
+.course-section a[href="#top"]:hover {
+  color: #dbeafe;
+  text-decoration: underline;
+}
+
 .course-title {
   color: #333;
   font-size: 2.5em;
@@ -62,4 +155,99 @@
 .back-button a:hover {
   color: #333;
   background-color: #e0e0e0;
+}
+
+/* Clickable course titles */
+.course-title-clickable {
+  cursor: pointer;
+  color: #60a5fa;
+  transition: all 0.3s ease;
+  user-select: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.05);
+  border: 2px solid transparent;
+}
+
+.course-title-clickable:hover {
+  color: #93c5fd;
+  background-color: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.3);
+  transform: translateY(-2px);
+}
+
+.course-title-clickable:active {
+  color: #dbeafe;
+  background-color: rgba(255,255,255,0.15);
+  transform: translateY(0);
+}
+
+/* Exam styles */
+.exams-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+}
+
+.exams-container h3 {
+  color: #495057;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 8px;
+}
+
+.no-exams {
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  border: 1px dashed #adb5bd;
+}
+
+.year-group {
+  margin-bottom: 20px;
+}
+
+.year-title {
+  color: #495057;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.exam-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.exam-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  border: 2px solid rgba(255,255,255,0.2);
+}
+
+.exam-button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  border-color: rgba(255,255,255,0.4);
+}
+
+.exam-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 } 

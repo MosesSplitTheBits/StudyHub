@@ -4,19 +4,17 @@
   "years": [
     { "year": 2025, "exams": [] },
     
-    { "year": 2024, "exams": [] },
+    { "year": 2024, "exams": [
+    {"title": "סמסטר ב מועד א","file":"2024-B-A.pdf"},
+    {"title":"סמסטר ב מועד ב","file":"2024-B-B.pdf"}
+    ] },
     {
       "year": 2023,
-      "exams": [
-        { "name": "מועד א", "pdf": "exams/calculus1/2023/moed-a.pdf" },
-        { "name": "מועד ב", "pdf": "exams/calculus1/2023/moed-b.pdf" }
-      ]
+      "exams": []
     },
     {
       "year": 2022,
-      "exams": [
-        { "name": "מועד א", "pdf": "exams/calculus1/2022/moed-a.pdf" }
-      ]
+      "exams": []
     }
   ]
 }
